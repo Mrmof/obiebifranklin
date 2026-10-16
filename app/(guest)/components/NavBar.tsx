@@ -31,7 +31,9 @@ const NavBar = () => {
   return (
     <header className="w-full h-15 shadow-[#00000010] bg-[#1A0B2E]">
       <nav className="flex items-center justify-between h-full w-full md:w-2/3 mx-auto px-4         md:px-8 lg:px-16">
-        <Logo />
+        <Link href="/">
+          <Logo />
+        </Link>
         {/* Desktop Menu */}
         <div className="w-2/3 hidden md:block">
           <ul className="flex items-center justify-between w-full">
