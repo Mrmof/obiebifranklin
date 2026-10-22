@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div style={{ backgroundColor: colors.secondary }}>
+    <div>
       <div className="w-full md:w-2/4 md:mx-auto p-5">
         <div className="relative ">
           <h1 className="font-regular text-[19px] mt-25 text-center lg:text-right text-white">
